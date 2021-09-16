@@ -11,38 +11,60 @@
     <title>Document</title>
 </head>
 <body>
+    <!-- Main Section -->
     <div class="main_section">
         <nav class="nav_bar">
+
+            <!-- Left side of the Nav Bar -->
             <div class="nav_logo">
                 <img src="images/Group 2.svg" alt="nav-logo">
             </div>
+
+
+            <!-- Right side of the nav bar -->
             <div>
                 <ul class="nav_links">
-                    <li class="nav_link text-orange"><a href="index.html">Home</a></li>
-                    <li class="nav_link "><a href="#">Products</a></li>
+                    <li class="nav_link text-orange"><a href="#">Products</a></li>
                     <li class="nav_link"><a href="#">About Us</a></li>
                     <li class="nav_link"><a href="#">Contact</a></li>
                 </ul>
             </div>
+
+            <div class="hamburger">
+
+                <div class="toggle"></div>
+                <div class="toggle"></div>
+                <div class="toggle"></div>
+
+            </div>
+
         </nav>
-        <div class="Hero __desktop">
-            <div class="Hero_wrapper">
+        
+        <!-- Main section Content -->
+        <div class="Hero desktop">
+            
+            <div class="Hero-wrapper">
                 <div>
                     <img src="images/headphones.png">
                 </div>
+
                 <h1>
-                    Guaranteed to give you <br>the best experience in <span class=orange>banking</span>
+                    Guaranteed to give you <br>the best experience in <span class="orange">banking</span>
                 </h1>
+                
                 <p>
-                    There are many variations of passages of Lorem Ipsum available,
-    but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. 
+                    There are many variations of passages of Lorem Ipsum available,<br>
+                    but the majority have suffered alteration in some form, by injected <br> humour, or randomised words which don't look even slightly <br> believable. 
                 </p>
-                <a href="" class="orange">Get Started</a>
+                
+                <a href="#" class="orange">Get Started</a>
             </div>
+        
         </div>
     </div>
-    <section>
-        <div class="Hero __mobile">
+           <!-- Main section Content duplicate for mobile -->
+    <section class="duplicate">
+        <div class="Hero mobile">
             <div class="Hero_wrapper">
                 <div>
                     <img src="images/headphones.png">
@@ -52,44 +74,80 @@
                 </h1>
                 <p>
                     There are many variations of passages of Lorem Ipsum available,
-    but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. 
+    but the majority have<br> suffered alteration in some form, by injected<br> humour, or randomised words which don't look<br> even slightly believable. 
                 </p>
-                <a href="" class="orange">Get Started</a>
+                <a href="#" class="orange-link">Get Started</a>
             </div>
         </div>
     </section>
-    <div class="Trusted_by">
-        <div class="container">
-            <p>Trusted by</p>
-            <div class="row">
+    
+    <!-- Sponsors Section -->
+
+            <div class="logos desktop">
                 <div class="col-md-4">
+                    <p>Trusted by</p>
+                </div>
+                <div class="col-md-4 skype">
                     <img src="images/image.svg" alt="skype" class="company_logo">
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 visa">
                     <img src="images/image 5.svg" alt="visa" class="company_logo">
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 coke">
                     <img src="images/image 8.svg" alt="CocaCola" class="company_logo">
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 google">
                     <img src="images/image 4.svg" alt="Google" class="company_logo">
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 puma">
                     <img src="images/image 2.svg" alt="Puma" class="company_logo">
                 </div> 
-                <div class="col-md-4">
+                <div class="col-md-4 addidas">
                     <img src="images/image 9.svg" alt="adidas" class="company_logo">
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 samsung">
                     <img src="images/image 7.svg" alt="Samsung" class="company_logo">
                 </div>
-            </div>
             
         <div class="dotty_picture">
             <img src="images/Group.png">
         </div>
     </div>
     </div>
+
+    <!-- duplicate logo -->
+<div class="logo-container mobile">
+    <p>Trusted by</p>
+    <div class="logos mobile">
+                   <div class="col-md-4 skype">
+            <img src="images/image.svg" alt="skype" class="company_logo">
+        </div>
+        <div class="col-md-4 visa">
+            <img src="images/image 5.svg" alt="visa" class="company_logo">
+        </div>
+        <div class="col-md-4 coke">
+            <img src="images/image 8.svg" alt="CocaCola" class="company_logo">
+        </div>
+        <div class="col-md-4 google">
+            <img src="images/image 4.svg" alt="Google" class="company_logo">
+        </div>
+        <div class="col-md-4 puma">
+            <img src="images/image 2.svg" alt="Puma" class="company_logo">
+        </div> 
+        <div class="col-md-4 addidas">
+            <img src="images/image 9.svg" alt="adidas" class="company_logo">
+        </div>
+        <div class="col-md-4 samsung">
+            <img src="images/image 7.svg" alt="Samsung" class="company_logo">
+        </div>
+    
+<div class="dotty_picture">
+    <img src="images/Group.png">
+</div>
+</div>
+</div>
+
+
     <section class="Features">
         <div>
             <h5 class="orange">Features</h5>
@@ -102,33 +160,32 @@
                 </div>
                 <h3 class="Feature_Heading">Designed with Users in Mind</h3>
                 <p>Get curated and design inspiration delivered straight to your inbox.</p>
-                <p class="Learn_more"><a href="#">Learn more</a></p>
+                <p class="learn"><a href="#" class="Learn_more">Learn more</a></p>
             </div>
             <div class="col Scalabilty">
                 <div>
                     <img src="images/vector.png">
                 </div>
                 <h3 class="Feature_Heading">Scalability</h3>
-                <p >Get curated and design inspiration delivered straight to your inbox.</p>
-                <p class="Learn_more"><a href="#">Learn more</a></p>
+                <p class="Feature-text">Get curated and design inspiration<br> delivered straight to your inbox.</p>
+                <p class="Learn-more">Learn more</p>
             </div>
             <div class="col Security">
                 <div>
                     <img src="images/fingerprint.png">
                 </div>
                 <h3 class="Feature_Heading">Security</h3>
-
-                    Learn more</h3>
-                <p>Get curated and design inspiration delivered straight to your inbox.</p>
-                <p class="Learn_more"><a href="#">Learn more</a></p>
+                <p class="Feature-text">Get curated and design inspiration<br> delivered straight to your inbox.</p>
+                <p class="Learn-more">Learn more</p>
             </div>
         </div>
     </section>
+    <footer>
     <section class="footer_content">
-        <div style="align-self: flex-start;">
+        <div class="footer-logo" style="align-self: flex-start;">
             <img src="images/Group 2.svg">
         </div>  
-            <div>
+            <div class="footer-menu one">
                 <p> Get Started</p>
                 <ul>
                     <li> Documentation</li>
@@ -137,7 +194,7 @@
                     <li>Guides</li>
                 </ul>
             </div>
-            <div>
+            <div class="footer-menu two">
                 <p> Platforms</p>
                 <ul>
                     <li>Available on iOS</li>
@@ -145,24 +202,28 @@
                     <li>Available on Web</li>
                 </ul>
             </div>
-            <div>
+            <div class="footer-menu three">
                 <p> Newsletter</p>
                 <p class="newsletter">Get curated content and design inspiration delivered straight to your inbox. </p>
+                <a class="orange" href="#">Learn More</a>
                 <div class="Box">
                     <input type="email" placeholder="Your email"/>
                     <button> Submit</button>
                 </div>
             </div>
     </section>
-    <footer>
-        <div class="footer">
-            <p>Copyright 2018. <span class="orange">Gravii.</span><span class="black">ng.</span> All rights reserved</p>
+    <div>
+        <div class="subfooter">
+            <div class="subfooter-text"> 
+            <p>Copyright 2018. <span class="orange">Gravii.</span><span class="black">ng. </span> All rights reserved</p> 
+        </div>
             <div class="icons">
                 <img src="images/instagram-logo.svg">
                 <img src="images/facebook.svg">
                 <img src="images/twitter.svg">
             </div>
         </div>
-    </footer>
+    </div>
+</footer>
 </body>
 </html>
